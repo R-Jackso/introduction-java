@@ -1,0 +1,1 @@
+I'm learning java for the first time. I'm also getting more familiar with Git and GitHub. This repository is the result. I'm learning through a Claude project featuring a set curriculum and progress tracker, so that I can actually progress through the course.
