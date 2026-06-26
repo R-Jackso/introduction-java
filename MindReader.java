@@ -40,7 +40,7 @@ public class MindReader {
                 String reply = scanner.nextLine();
 
                 if (reply.equals("c")) {
-                    System.out.println("\nI've conquered another mind.");
+                    System.out.println("\nI've conquered another mind in only " + i + " guesse(s).");
                     break;
                 }
                 else if (reply.equals("l")) {
