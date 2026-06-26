@@ -35,7 +35,7 @@ public class MindReader {
             int high = 100;
             int low = 1;
             
-            for (int i = 0; i <= 7; i++) { // i/count starts at zero and increases each round. If i is greater than seven, the user has been given invalid guesses and we start over
+            for (int i = 1; i <= 7; i++) { // i/count starts at one and increases each round. If i is greater than seven, the user has been giving invalid guesses and the game ends
                 int currentGuess = (low + high) / 2;
                 System.out.println("\n\n\nIs your number " + currentGuess + "?");
                 String reply = scanner.nextLine();
